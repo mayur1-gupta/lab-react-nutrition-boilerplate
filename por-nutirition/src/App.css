@@ -1,0 +1,46 @@
+.food-item {
+  border: 1px solid #e30d0d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-details {
+  display: flex;
+  align-items: center;
+}
+
+.food-details img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.food-info {
+  flex: 1;
+}
+
+.food-info p {
+  margin: 0;
+}
+
+.food-controls {
+  display: flex;
+  align-items: center;
+}
+
+.food-controls input {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.food-calories-display {
+  margin-left: 20px;
+}
+
+.food-calories-display p {
+  margin: 0;
+}
